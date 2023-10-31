@@ -33,12 +33,12 @@ Use the following steps to cluster the cryptocurrencies for the best value for `
    - Add the "coin_id" column in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
   
 ## Optimize Clusters with Principal Component Analysis
-    - Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
-    - Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
-      - What is the total explained variance of the three principal components?
+- Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
+- Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
+  - What is the total explained variance of the three principal components?
 
-    - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-      - The first five rows of the PCA DataFrame should appear as follows:  
+- Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+  - The first five rows of the PCA DataFrame should appear as follows:  
 
       ![image](https://github.com/melina-t/CryptoClustering/assets/132321994/e93013e1-7fab-47f5-a48a-1f3ee0cc7a32)
 
